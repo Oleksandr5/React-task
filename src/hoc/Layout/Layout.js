@@ -148,9 +148,9 @@ class Layout extends Component {
 						</div>
 					</div>
 					<div className={`col-12 col-sm-4 ${classes.blockHistory}`} >
-						<h1>History</h1>
+						<h1 className={`mx-auto ${classes.h1History}`} >History</h1>
 						<input type="checkbox" onChange={() => this.setState({ updatePageChecked: !this.state.updatePageChecked })} id={`updatePage`} checked={this.props.updatePageChecked} />
-						<div className={`overflow-auto webkit_scrollbar_width webkit_scrollbar_style ${classes.divHistory}`} >
+						<div className={`mx-auto overflow-auto webkit_scrollbar_width webkit_scrollbar_style ${classes.divHistory}`} >
 							{this.history()}
 						</div>
 					</div>

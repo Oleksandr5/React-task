@@ -10,7 +10,9 @@
 }
 
 .endpoint,
-.mainHeader {
+.mainHeader,
+.h1History,
+.divHistory {
 	width: 300px;
 }
 
