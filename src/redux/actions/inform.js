@@ -6,7 +6,7 @@ export function fetchEndpointData() {
 
 		try {
 
-			const responseEndpoint = await axios.get("http://demo1030918.mockable.io/")
+			const responseEndpoint = await axios.get("https://demo1030918.mockable.io/")
 			const endpointData = responseEndpoint.data
 
 			dispatch(fetchEndpointDataSuccess(endpointData))

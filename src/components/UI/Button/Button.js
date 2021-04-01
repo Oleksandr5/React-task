@@ -16,7 +16,6 @@ const Button = props => {
 			onClick={props.onClick}
 			className={cls.join(' ')}
 			id={props.id}
-			data-idthiscustomers={props.data_idthiscustomers}
 			disabled={props.disabled}
 		>
 			{props.children}
