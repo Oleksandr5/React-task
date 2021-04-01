@@ -36,7 +36,7 @@ export function hoverEndpoint({ point }) {
 
 		let hoverEndpoint = getState().inform.hoverEndpoint
 
-		hoverEndpoint.push(point)
+		hoverEndpoint.unshift(point)
 
 		dispatch(fetchEndpointDataError(hoverEndpoint))
 
