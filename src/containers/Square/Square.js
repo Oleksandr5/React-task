@@ -25,7 +25,7 @@ class Square extends Component {
 		}
 
 		return (
-			<div className={`squareItem ${classes.Square} ${this.props.quantity === 5 ? classes.width5 : (this.props.quantity === 10 ? classes.width10 : (this.props.quantity === 15 ? classes.width15 : null))}`} style={objstyle} onMouseEnter={() => this.hoverItem(this.props.point)} >
+			<div className={`squareItem ${classes.Square}`} style={objstyle} onMouseEnter={() => this.hoverItem(this.props.point)} >
 
 			</div >
 		)
