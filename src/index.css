@@ -1,0 +1,24 @@
+.btnStart {
+	color: #fff !important;
+	text-transform: uppercase;
+	height: 35px;
+}
+
+.squareActive:hover {
+	background: #03a8f4;
+	cursor: pointer;
+}
+
+#updatePage {
+	display: none;
+}
+
+.webkit_scrollbar_width::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+.webkit_scrollbar_style::-webkit-scrollbar-thumb {
+	background-color: #364969;
+	border-radius: 10px;
+}

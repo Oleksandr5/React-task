@@ -1,0 +1,29 @@
+.Layout {
+	height: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.selectEndpoint {
+	width: 200px !important;
+}
+
+.endpoint,
+.mainHeader {
+	width: 300px;
+}
+
+.itemHistory {
+	background-color: #fbf8e3;
+}
+
+.blockHistory {
+	position: relative;
+}
+
+.divHistory {
+	position: sticky;
+	top: 5px;
+	max-height: 300px;
+}
